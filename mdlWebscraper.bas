@@ -11,7 +11,7 @@ Dim NAV, Units As Double
 
 'Creating Internet Explorer instance
 Set IE = CreateObject("InternetExplorer.Application")
-'Navigate to get MF's NAV
+'Navigate to get MF's NAV URL
 IE.navigate "https://www.etmoney.com/mutual-funds/axis-long-term-equity-fund-growth/10480"
 
 'IE.Visible = True
